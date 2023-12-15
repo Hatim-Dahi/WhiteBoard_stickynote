@@ -1,0 +1,15 @@
+.pen-selection {
+  background-color: white;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pen-selection:hover {
+    background-color: rgb(197, 196, 196);
+  }
+
+.pen-selection.highlighted {
+  background-color: rgb(197, 196, 196);
+}
+
